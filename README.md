@@ -1,0 +1,15 @@
+# Murder Hornet Dataset
+
+## Goal of the project
+
+* Annotated dataset for Asian Giant Hornets.
+* Labeled with [labelImg](https://github.com/tzutalin/labelImg), with Pascal VOC XML and YOLO format
+* Images crawled from Naver using [AutoCrawler](https://github.com/YoongiKim/AutoCrawler)
+
+## Asian Giant Hornets?
+
+* In 2020, Asian Giant Hornet queens are discovered in U.S 
+* 30 Asian Giant Hornets can wipe out more than 30000 Asian honeybees. Asian Giant Hornets scavenges honeycomb, leaves no survivors.
+* It is expected that U.S. honeybees will be more vulnerable for Asian Giant Hornets. Asian honeybees have defense mechanism of forming up "bee ball" to commence suicidal attacks, whereas U.S Honeybees don't.
+* To protect honeybees from Asian Giant Hornets, beekeepers should be alerted as qucikly as possible. One killer hornet calls for other killer hornets.
+
