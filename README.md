@@ -3,7 +3,8 @@
 ## Goal of the project
 
 * Annotated dataset for Asian Giant Hornets.
-* Labeled with [labelImg](https://github.com/tzutalin/labelImg), with Pascal VOC XML and YOLO format
+* Labeled with [labelImg](https://github.com/tzutalin/labelImg) with Pascal VOC XML
+* Added YOLO format labels from XML files with [XmlToTxt](https://github.com/Isabek/XmlToTxt)
 * Images crawled from Naver using [AutoCrawler](https://github.com/YoongiKim/AutoCrawler)
 
 ## Asian Giant Hornets?
