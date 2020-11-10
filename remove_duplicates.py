@@ -18,9 +18,7 @@ def delete_given_file(image_name):
     try:
         for item in files_list:
             os.remove(item)
-        if int_files != 3:
-            print(f"FAIL: only {int_files} removed for {file_name} failed")
-        elif int_files == 3:
+        if int_files == 3:
             print(f"removed {int_files} file of {file_name}")
     except:
         print(f"FAIL: removing {file_name} failed")
