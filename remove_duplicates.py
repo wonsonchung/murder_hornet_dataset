@@ -37,23 +37,19 @@ def remove_img_file(image_name):
 
 # delete_given_file("naver_0074.jpg")
 removable_file_list = [
-    "naver_0652.jpg",
-    "naver_0666.jpg",
-    "naver_0608.jpg",
-    "naver_0649.jpg",
-    "naver_0623.jpg",
-    "naver_0678.jpg",
-    "naver_0866.jpg",
-    "naver_0553.jpg",
-    "naver_0681.jpg",
-    "naver_0811.jpg",
-    "naver_0698.jpg",
-    "naver_0915.jpg",
-    "naver_0638.jpg",
-    "naver_0543.jpg",
-    "naver_0396.jpg",
-    "naver_0569.jpg",
-    "naver_0523.jpg",
+    "naver_0615.jpg",
+    "naver_0508.jpg",
+    "naver_0353.jpg",
+    "naver_0677.jpg",
+    "naver_0592.jpg",
+    "naver_0443.jpg",
+    "naver_0904.jpg",
+    "naver_0460.jpg",
+    "naver_0832.jpg",
+    "naver_0388.jpg",
+    "naver_0408.jpg",
+    "naver_0513.jpg",
+    "naver_0429.jpg",
 ]
 
 
