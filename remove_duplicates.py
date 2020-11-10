@@ -24,18 +24,39 @@ def delete_given_file(image_name):
         print(f"FAIL: removing {file_name} failed")
 
 
+def remove_img_file(image_name):
+    file_name = image_name.split(".")[0]
+    IMG_PATH = "./unlabeled-imgs"
+    img_file = f"{IMG_PATH}/{file_name}.jpg"
+    try:
+        os.remove(img_file)
+        print(f"removed {img_file} file")
+    except:
+        print(f"FAIL: removing {img_file} failed")
+
+
 # delete_given_file("naver_0074.jpg")
 removable_file_list = [
-    "naver_0074.jpg",
-    "naver_0341.jpg",
-    "naver_0339.jpg",
-    "naver_0325.jpg",
-    "naver_0040.jpg",
-    "naver_0000_duplicate.jpg",
-    "naver_0318.jpg",
-    "naver_0271.jpg",
-    "naver_0234.jpg",
+    "naver_0652.jpg",
+    "naver_0666.jpg",
+    "naver_0608.jpg",
+    "naver_0649.jpg",
+    "naver_0623.jpg",
+    "naver_0678.jpg",
+    "naver_0866.jpg",
+    "naver_0553.jpg",
+    "naver_0681.jpg",
+    "naver_0811.jpg",
+    "naver_0698.jpg",
+    "naver_0915.jpg",
+    "naver_0638.jpg",
+    "naver_0543.jpg",
+    "naver_0396.jpg",
+    "naver_0569.jpg",
+    "naver_0523.jpg",
 ]
 
+
 for file_item in removable_file_list:
-    delete_given_file(file_item)
+    # delete_given_file(file_item)
+    remove_img_file(file_item)
