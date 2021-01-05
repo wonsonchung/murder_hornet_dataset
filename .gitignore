@@ -7,3 +7,5 @@ find_duplicates.py
 imagededup
 image-match
 resize_dataset_pascalvoc
+pn-ng
+*.mp4
